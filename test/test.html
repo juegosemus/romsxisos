@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>NES Famicom En Español</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    table { margin: auto; border-collapse: collapse; width: 80%; }
+    th, td { border: 1px solid #000; padding: 10px; }
+    th { background-color: orange; color: black; }
+    img { height: 80px; }
+  </style>
+</head>
+<body>
+
+<h1>NES Famicom En Español</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Imagen</th>
+      <th>Nombre del Juego</th>
+      <th>Tamaño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php
+    $dir = "roms"; // carpeta donde están los archivos
+    $files = array_diff(scandir($dir), array('.', '..'));
+    sort($files);
+
+    foreach ($files as $file) {
+        $filePath = "$dir/$file";
+        $fileSize = round(filesize($filePath) / 1024) . " KB";
+        echo "<tr>";
+        echo "<td><img src='default.jpg' alt='Imagen genérica'></td>"; // Puedes poner miniaturas si las tienes
+        echo "<td>" . htmlspecialchars($file) . "</td>";
+        echo "<td>$fileSize</td>";
+        echo "</tr>";
+    }
+    ?>
+  </tbody>
+</table>
+
+</body>
+</html>
