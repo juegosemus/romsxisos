@@ -1,6 +1,6 @@
 body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0px;
       background: #f5f5f5;
     }
     
@@ -137,3 +137,41 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
         width: 100%;
       }
     }
+/* FOOTER */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+  }
+  
+  
+  .footer-content:before {
+  content: "2025 RomsXISOs - Versión del Sitio 1.0";
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
