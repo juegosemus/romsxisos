@@ -72,11 +72,11 @@
     }
 
     .console-title a:hover {
-      color: #d63384;
+      color: #ee360e;
     }
 
     .roms-count {
-      color: #d63384;
+      color: #0eb0ec;
       font-weight: 500;
       font-size: 14px;
     }
@@ -100,7 +100,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: #d1004a;
+      background-color: #004ad1;
       padding: 10px 20px;
       position: relative;
     }
@@ -148,6 +148,7 @@
 
     .side-menu a:hover {
       background-color: #f1f1f1;
+      color: red;
     }
 
     .side-menu .closebtn {
@@ -181,7 +182,7 @@
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 15px;
 }
 
 .footer-content {
@@ -192,7 +193,7 @@
   
   
   .footer-content:before {
-  content: "2025 RomsXISOs - Versión del Sitio 1.0";
+  content: "2025 RomsXISOs - Versión del Sitio 1.0.1";
   color: white;
   padding: 10px;
   display: inline-block;
@@ -259,4 +260,3 @@
       font-size: 0.9em;
     }
   
-}

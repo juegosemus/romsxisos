@@ -40,15 +40,21 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
       text-decoration: underline;
     }
     
-    .regresar a {
-        
-    }
     
-    .regresar {
-        margin-bottom: 50px;
-        font-size: 17px;
+.regresar{
+  margin-top: 15px;
+}
+
+    .regresar a{
+        font-size: 20px;
         text-decoration: none;
-        color: #007bff;
+        color: #007bff;  
+    }
+
+
+ .regresar a:hover {
+      color:red;
+        
     }
 
     .search-box {
@@ -68,9 +74,10 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
     }
 
     table {
-      width: 100%;
+      width: 98%;
       border-collapse: collapse;
       min-width: 600px;
+      margin: 10px;
     }
 
     th, td {
@@ -83,7 +90,6 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
 
     th {
       background-color: #FF8C00;
-      border-radius: 7px 0px;
     }
 
     td:first-child {
@@ -154,7 +160,7 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
   
   
   .footer-content:before {
-  content: "2025 RomsXISOs - Versión del Sitio 1.0";
+  content: "2025 RomsXISOs - Versión del Sitio 1.0.1";
   color: white;
   padding: 10px;
   display: inline-block;
