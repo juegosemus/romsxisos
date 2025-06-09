@@ -3374,6 +3374,13 @@ const roms = [
     link2: ""
   },
   {
+    name: "Mega Man & Bass (Europe)",
+    image: "https://i.postimg.cc/44WPNYKW/source-nintendo-game-boy-advance-logo-115629163465s1fttrycr-removebg-preview.png",
+    size: "4600 KB",
+    link1: "https://drive.google.com/file/d/1ex0E6_9moD7HmSuQGEZfFptOSJb4rmLo/view?usp=drive_link",
+    link2: ""
+  },
+  {
     name: "MegaMan Zero 3",
     image: "https://i.postimg.cc/44WPNYKW/source-nintendo-game-boy-advance-logo-115629163465s1fttrycr-removebg-preview.png",
     size: "4730 KB",
