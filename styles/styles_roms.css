@@ -38,8 +38,12 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
 
     .letters a:hover {
       text-decoration: underline;
+      color: red;
     }
-    
+
+    .letters a:active {
+      color: red;
+    }
     
 .regresar{
   margin-top: 15px;
