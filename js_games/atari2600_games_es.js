@@ -63,14 +63,14 @@ const roms = [
     link2: ""
   },
   {
-    name: "ASTEROID.BIN",
+    name: "ASTEROID",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1ybUL_ziVJj8kkYuCtnS6y4fsq9QTykIa/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "ASTRBLST.BIN",
+    name: "ASTRBLST",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1Ht6CkEH71FxGVt-kt7Rob8H9dodb5oI4/view?usp=drivesdk",
@@ -105,7 +105,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "AdventuresOnGX12.BIN",
+    name: "AdventuresOnGX12",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1mXNdW6YanrohtR4kXgTZUxh0r8cgm_8_/view?usp=drivesdk",
@@ -280,7 +280,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "Atlantis2.BIN",
+    name: "Atlantis2",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1qQ7ah5z_Dr-6linPKEhw5vPsXMgtIAen/view?usp=drivesdk",
@@ -644,7 +644,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "CONDOR.BIN",
+    name: "CONDOR",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1Jbfo-7p8WNSK49eV1ZlRJ08MooltEa4j/view?usp=drivesdk",
@@ -980,7 +980,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "Cracked.BIN",
+    name: "Cracked",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "16 KB",
     link1: "https://drive.google.com/file/d/1U3vhbcG1YYOTkbWhyImlg7MEQCVvHp_D/view?usp=drivesdk",
@@ -1372,7 +1372,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "Entity.BIN",
+    name: "Entity",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/19WjkjLAqlxVYPb-W4kZvq1ZZW52AbPmm/view?usp=drivesdk",
@@ -2058,7 +2058,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "IncaGold_Zellers.BIN",
+    name: "IncaGold_Zellers",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1NJujyUa_bs04riB2EmwvbGUeNd65AC6q/view?usp=drivesdk",
@@ -2254,14 +2254,14 @@ const roms = [
     link2: ""
   },
   {
-    name: "LASRGATE.BIN",
+    name: "LASRGATE",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1nlkhjt7kRsdOHoYhdBLXUAQjo4Y8m4T0/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "LOSTLUGG.BIN",
+    name: "LOSTLUGG",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1bhr2y_aG4IXg5AiCctQWR84NWSQdBe4I/view?usp=drivesdk",
@@ -2324,7 +2324,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "Looping.BIN",
+    name: "Looping",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1wrGFV5b1Cdz5KFgsJEyGanSJMP6tEOTz/view?usp=drivesdk",
@@ -2352,28 +2352,28 @@ const roms = [
     link2: ""
   },
   {
-    name: "MARIOBRO.BIN",
+    name: "MARIOBRO",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1W0Y5JZGKzrTCxXd60GqqzGj-h52qjgzE/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "MINRVOL2.BIN",
+    name: "MINRVOL2",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1hBaeotSacK4xhS43lJX7HEB3e60OwZ2F/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "MIN_GOLF.BIN",
+    name: "MIN_GOLF",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "2 KB",
     link1: "https://drive.google.com/file/d/1t5K9iHyuMmNGwlcbErOwCk5NDmKfBG4h/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "MTNKING.BIN",
+    name: "MTNKING",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "12 KB",
     link1: "https://drive.google.com/file/d/15eMz0LD97nYVvMF8YU6MBIFTrd43aUc_/view?usp=drivesdk",
@@ -2702,14 +2702,14 @@ const roms = [
     link2: ""
   },
   {
-    name: "NAMEGAME.BIN",
+    name: "NAMEGAME",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1wDnfmyXKjoyjNsucPm00PcVMHWaaZiwb/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "NGHTMARE.BIN",
+    name: "NGHTMARE",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1jAIwBDRr9PwCN-UUqGXMUOVmRQ_gQ7eW/view?usp=drivesdk",
@@ -2982,7 +2982,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "PickUp.BIN",
+    name: "PickUp",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1BluDJxAkT4gY-pY5n2n6eC79ApCUMr99/view?usp=drivesdk",
@@ -3402,70 +3402,70 @@ const roms = [
     link2: ""
   },
   {
-    name: "RushHour.BIN",
+    name: "RushHour",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1YK39pRzR2l9Agfv3iilEjDpwzl2PA-Zq/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "SCUDIV_P.BIN",
+    name: "SCUDIV_P",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1C_ptVakxgK1Dn0cBnyXAlcysFverxyY5/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "SECRETQ.BIN",
+    name: "SECRETQ",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "16 KB",
     link1: "https://drive.google.com/file/d/1rx0xLti-OGKo9oUqQ4R5cwkhmx9swB56/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "SMRFSAVE.BIN",
+    name: "SMRFSAVE",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1tr2AII8ozcZvozMLmpgNxatEXXAzcg4Q/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "SP-DL.BIN",
+    name: "SP-DL",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1lEc-Ci6CDG4GuciMegMMVjrvM7kgcd7Y/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "STAREMPR.BIN",
+    name: "STAREMPR",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1iYk7rY9emZAVw9EIkUSZGImBIWgETpMI/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "STARGN.BIN",
+    name: "STARGN",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1YQSBJ8hYjYYUyhm2ec87Y4NXfgjmM5vW/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "STARTREK.BIN",
+    name: "STARTREK",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1FYhj3X-aYFzyLg-u4lI1k5UkZmFTFVHC/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "STARVYGR.BIN",
+    name: "STARVYGR",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1X7Y2RhVX2yyYPiOUgvo_CXyibtgGb5D4/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "SWARCADE.BIN",
+    name: "SWARCADE",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1Q9U_xffJA08ahO9xKi2bUA1NxYhY3mbo/view?usp=drivesdk",
@@ -3493,7 +3493,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "SaveTheWhales.BIN",
+    name: "SaveTheWhales",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1cQ2SB8XwpZ4vV8q8YYaZT0HlpkEGw1Dz/view?usp=drivesdk",
@@ -3899,7 +3899,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "SpaceAdventure_Zellers.BIN",
+    name: "SpaceAdventure_Zellers",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1SG_T1QOdE2yJ3mhVSQS2JPDgnuLZWf51/view?usp=drivesdk",
@@ -4739,7 +4739,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "UniversalProto.Bin",
+    name: "UniversalProto",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "8 KB",
     link1: "https://drive.google.com/file/d/1QZdXclI3srQLQjafamBITKr3LR6Dcbyc/view?usp=drivesdk",
@@ -5292,7 +5292,7 @@ const roms = [
     link2: ""
   },
   {
-    name: "spidermz.BIN",
+    name: "spidermz",
     image: "https://i.postimg.cc/zXVpFvJZ/Atari-2600-Logo.png",
     size: "4 KB",
     link1: "https://drive.google.com/file/d/1_c49gAa7Sq9EcXJAOSwHGvLCSlBNrmca/view?usp=drivesdk",
