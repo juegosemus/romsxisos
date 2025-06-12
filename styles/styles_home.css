@@ -259,4 +259,37 @@
       color: #666;
       font-size: 0.9em;
     }
+
+
+.acerca_web {
+      background-color: #DCDCDC;
+      border-radius: 4px 4px 4px 4px;
+      padding: 25px;
+      
+  }
+
+  .acerca_web p {
+  font-size: 20px;
+  word-wrap: break-word;    /* fuerza corte de palabras largas */
+  overflow-wrap: break-word; /* estándar moderno */
+  white-space: normal; 
+
+  }
+
+  .acerca_web span {
+    color:orange;
+  }
+
   
+.novedades {
+      background-color: #DCDCDC;
+      margin:0px 5px 0px 5px;
+      border-radius: 4px 4px 4px 4px;
+  word-wrap: break-word;    /* fuerza corte de palabras largas */
+  overflow-wrap: break-word; /* estándar moderno */
+  white-space: normal;   
+}
+
+.novedades span {
+     color:orange;
+}
