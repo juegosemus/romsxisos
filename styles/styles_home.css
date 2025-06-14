@@ -293,3 +293,48 @@
 .novedades span {
      color:orange;
 }
+
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 0 10px;
+  }
+
+  #searchInput {
+    width: 85%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+  }
+
+  .search-icon {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 0 8px 8px 0;
+    font-size: 18px;
+    color: white;
+    cursor: default;
+  }
+
+  @media (max-width: 600px) {
+    .search-container {
+      flex-direction: row;
+      padding: 0 5px;
+    }
+
+    #searchInput {
+      font-size: 14px;
+       border: 2px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    }
+
+    .search-icon {
+      font-size: 24px;
+    }
+  }
