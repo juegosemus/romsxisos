@@ -52,6 +52,15 @@
 <main class="main">
 
   <h2>Lista de Consolas Disponibles</h2>
+
+<center>
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar consola..." onkeyup="filterConsoles()" />
+  <span class="search-icon">🔍</span>
+</div>
+</center>
+
+
   <div class="container">
 
     <div class="console-box">
@@ -88,6 +97,17 @@
 </a></div>
       <div class="roms-count"> 140 Roms</div>
     </div>
+
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/XYrYNbgc/Amiga500-system.png" alt="Amiga 500">
+      <div class="console-title"><a href="roms/amiga500_roms.html">Amiga 500</a></div>
+      <div class="roms-count">190 Roms</div>
+    </div>
+
+
+
 
 <div class="console-box">
       <img src="https://i.postimg.cc/HnLd4wfb/Commodore-64-Computer-FL.png" alt="Commodore 64">
@@ -334,8 +354,7 @@
       <div class="console-title"><a href="roms/segacd_roms.html">Sega CD</a></div>
       <div class="roms-count"> 540 Roms</div>
     </div>
-    
-    
+  
     
     <div class="console-box">
       <img src="https://i.postimg.cc/fRKM6KFH/Neo-Geo-Pocket-Anthra-Left.png" alt="NeoGeoCD">
@@ -363,6 +382,16 @@
       <div class="roms-count"> 172 Roms</div>
     </div>
     
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/xTw1dZpw/Philips-CDi-220.png" alt="Philips CD-i">
+      <div class="console-title"><a href="roms/cdi_roms.html">Philips CD-i</a></div>
+      <div class="roms-count"> 220 Roms</div>
+    </div>
+
+
+
     <div class="console-box">
       <img src="https://i.postimg.cc/TPLbzGBY/Virtual-Boy-Set.png" alt="VirtualBoy">
       <div class="console-title"><a href="roms/virtualboy_roms.html">VirtualBoy</a></div>
@@ -375,11 +404,26 @@
       <div class="roms-count"> 178 Roms</div>
     </div>
 
+ <div class="console-box">
+      <img src="https://i.postimg.cc/NFd11cSf/Tiger-Game-Com-FL.png" alt=" Tiger Game.com">
+      <div class="console-title"><a href="roms/tigergame.html">Tiger Game.com</a></div>
+      <div class="roms-count"> 25 Roms</div>
+    </div>
+
     <div class="console-box">
       <img src="https://i.postimg.cc/XYsY3d05/Turbo-Grafx16-Console-Set.png" alt="Turbo-Grafx16">
       <div class="console-title"><a href="roms/TurboGrafx16_roms.html">TurboGrafx-16</a></div>
       <div class="roms-count"> 505 Roms</div>
     </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/KYKf5RDk/NEC-Turbo-Grafx-16-CD-FL.png" alt="Turbo-Grafx CD">
+      <div class="console-title"><a href="roms/turbografxcd_roms.html">TurboGrafx CD</a></div>
+      <div class="roms-count"> 187 Roms</div>
+    </div>
+
+
 
      <div class="console-box">
       <img src="https://i.postimg.cc/4N9cnP1p/Xbox-Console-Set.png" alt="Xbox">
@@ -423,6 +467,18 @@
 </script>
 
 
+<script>
+  function filterConsoles() {
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toLowerCase();
+    const consoles = document.querySelectorAll(".console-box");
+
+    consoles.forEach((box) => {
+      const title = box.querySelector(".console-title a").textContent.toLowerCase();
+      box.style.display = title.includes(filter) ? "block" : "none";
+    });
+  }
+</script>
 
 
 
