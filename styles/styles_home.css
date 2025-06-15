@@ -16,24 +16,7 @@
       text-align: center;
       margin-bottom: 30px;
     }
-    
-     .novedades {
-      background-color: #DCDCDC;
-      margin:0px 5px 0px 5px;
-      border-radius: 4px 4px 4px 4px;
-  word-wrap: break-word;    /* fuerza corte de palabras largas */
-  overflow-wrap: break-word; /* estándar moderno */
-  white-space: normal;   
-      
-  }
   
-  .novedades p {
-      font-family: arial;
-      margin-left: 2%;
-            
-  }
-    
-
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -80,6 +63,29 @@
       font-weight: 500;
       font-size: 14px;
     }
+
+
+.novedades {
+      background-color: #DCDCDC;
+      margin:0px 5px 0px 5px;
+      border-radius: 4px 4px 4px 4px;
+  word-wrap: break-word;    /* fuerza corte de palabras largas */
+  overflow-wrap: break-word; /* estándar moderno */
+  white-space: normal;   
+}
+
+.novedades span {
+     color:orange;
+ }
+
+.novedades p {
+      font-family: arial;
+      margin-left: 2%;
+
+  }
+
+
+
 
     /* Tablets y móviles: cajas más estrechas para alinearse */
     @media (max-width: 900px) {
@@ -193,7 +199,7 @@
   
   
   .footer-content:before {
-  content: "2025 RomsXISOs - Versión del Sitio 1.0.1";
+  content: "2025 RomsXISOs - Versión del Sitio 1.0.2";
   color: white;
   padding: 10px;
   display: inline-block;
@@ -259,82 +265,3 @@
       color: #666;
       font-size: 0.9em;
     }
-
-
-.acerca_web {
-      background-color: #DCDCDC;
-      border-radius: 4px 4px 4px 4px;
-      padding: 25px;
-      
-  }
-
-  .acerca_web p {
-  font-size: 20px;
-  word-wrap: break-word;    /* fuerza corte de palabras largas */
-  overflow-wrap: break-word; /* estándar moderno */
-  white-space: normal; 
-
-  }
-
-  .acerca_web span {
-    color:orange;
-  }
-
-  
-.novedades {
-      background-color: #DCDCDC;
-      margin:0px 5px 0px 5px;
-      border-radius: 4px 4px 4px 4px;
-  word-wrap: break-word;    /* fuerza corte de palabras largas */
-  overflow-wrap: break-word; /* estándar moderno */
-  white-space: normal;   
-}
-
-.novedades span {
-     color:orange;
-}
-
-
-  .search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    max-width: 500px;
-    padding: 0 10px;
-  }
-
-  #searchInput {
-    width: 85%;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 8px 0 0 8px;
-    outline: none;
-  }
-
-  .search-icon {
-    background-color: #ccc;
-    padding: 10px;
-    border-radius: 0 8px 8px 0;
-    font-size: 18px;
-    color: white;
-    cursor: default;
-  }
-
-  @media (max-width: 600px) {
-    .search-container {
-      flex-direction: row;
-      padding: 0 5px;
-    }
-
-    #searchInput {
-      font-size: 14px;
-       border: 2px solid #ccc;
-    border-radius: 8px 0 0 8px;
-    }
-
-    .search-icon {
-      font-size: 24px;
-    }
-  }
