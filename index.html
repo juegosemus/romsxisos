@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio / RomsXISOs </title>
  <link rel="stylesheet" href="styles/styles_home.css">
+ <link rel="stylesheet" href="styles/styles.css">
  
  
  <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
@@ -51,13 +52,22 @@
 
 <main class="main">
 
-  <h2>Lista de Consolas Disponibles</h2>
+
 
 <center>
+
+  <img class="wallpaper" src="https://i.postimg.cc/26hfz1gY/wallpaper.png">
+
+  <h2>Lista de Consolas Disponibles</h2>
+
 <div class="search-container">
-  <input type="text" id="searchInput" placeholder="Buscar consola..." onkeyup="filterConsoles()" />
+  <input type="text" id="searchInput" placeholder="Buscar consola..." oninput="handleInput()" />
   <span class="search-icon">🔍</span>
+  <span class="clear-icon" id="clearIcon" onclick="clearSearch()" style="display: none;">✖</span>
 </div>
+<p id="noResults" style="text-align:center; display:none; color:red; font-weight:bold;">No se encuentran resultados</p>
+
+
 </center>
 
 
@@ -441,8 +451,8 @@
  
   </main>
 
-
   </div>
+
 
    <script>
   const sideMenu = document.getElementById("sideMenu");
@@ -468,19 +478,41 @@
 
 
 <script>
+  function handleInput() {
+    const input = document.getElementById("searchInput");
+    const clearIcon = document.getElementById("clearIcon");
+
+    clearIcon.style.display = input.value ? "inline" : "none";
+    filterConsoles();
+  }
+
   function filterConsoles() {
     const input = document.getElementById("searchInput");
     const filter = input.value.toLowerCase();
     const consoles = document.querySelectorAll(".console-box");
+    let anyVisible = false;
 
     consoles.forEach((box) => {
       const title = box.querySelector(".console-title a").textContent.toLowerCase();
-      box.style.display = title.includes(filter) ? "block" : "none";
+      if (title.includes(filter)) {
+        box.style.display = "block";
+        anyVisible = true;
+      } else {
+        box.style.display = "none";
+      }
     });
+
+    document.getElementById("noResults").style.display = anyVisible ? "none" : "block";
+  }
+
+  function clearSearch() {
+    const input = document.getElementById("searchInput");
+    input.value = "";
+    document.getElementById("clearIcon").style.display = "none";
+    filterConsoles();
+    input.focus();
   }
 </script>
-
-
 
 
 <!-- FOOTER -->
