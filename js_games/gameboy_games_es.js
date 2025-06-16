@@ -2688,6 +2688,13 @@ const roms = [
     link2: ""
   },
   {
+    name: "Pokemon Amarillo",
+    image: "https://i.postimg.cc/4xpnCbCP/Nintendo-Game-Boy-Logo-svg.png",
+    size: "500 KB",
+    link1: "https://drive.google.com/file/d/1ul4mXTb5f9FSwbqLj9nHvpJXqHqQO6HH/view?usp=drivesdk",
+    link2: ""
+  },
+  {
     name: "Pop Up (E)",
     image: "https://i.postimg.cc/4xpnCbCP/Nintendo-Game-Boy-Logo-svg.png",
     size: "19 KB",

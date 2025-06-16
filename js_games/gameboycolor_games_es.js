@@ -1050,21 +1050,14 @@ const roms = [
     link2: ""
   },
   {
-    name: "Pokθmon Amarillo",
-    image: "https://i.postimg.cc/HLgJzWzm/game-boy-color-logo-png-seeklogo-520855.png",
-    size: "500 KB",
-    link1: "https://drive.google.com/file/d/1ul4mXTb5f9FSwbqLj9nHvpJXqHqQO6HH/view?usp=drivesdk",
-    link2: ""
-  },
-  {
-    name: "Pokθmon Cristal",
+    name: "Pokemon Cristal",
     image: "https://i.postimg.cc/HLgJzWzm/game-boy-color-logo-png-seeklogo-520855.png",
     size: "1008 KB",
     link1: "https://drive.google.com/file/d/1cpYU0AzPJKdIzjBC_mw331H_vnZjVulA/view?usp=drivesdk",
     link2: ""
   },
   {
-    name: "Pokθmon Plata",
+    name: "Pokemon Plata",
     image: "https://i.postimg.cc/HLgJzWzm/game-boy-color-logo-png-seeklogo-520855.png",
     size: "730 KB",
     link1: "https://drive.google.com/file/d/1CYe-v2hv_Sh4THiGa8rEVUrPqpvYSqcj/view?usp=drivesdk",
