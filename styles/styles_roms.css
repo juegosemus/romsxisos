@@ -38,6 +38,7 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
 
     .letters a:hover {
       text-decoration: underline;
+      color: red;
     }
 
     .letters a:active {
@@ -133,6 +134,32 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
       }
     }
 
+.alerta {
+      position: relative;
+      padding: 20px 40px 20px 20px;
+      background-color: #dde73b;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      font-family: sans-serif;
+    }
+
+    .cerrar {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #555;
+      cursor: pointer;
+    }
+
+    .cerrar:hover {
+      color: #f00;
+    }
+
+
+
     @media (max-width: 480px) {
       table {
         font-size: 12px;
@@ -144,6 +171,11 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
 
       td:first-child img {
         width: 100%;
+      }
+
+
+    .search-box {
+      width: 90%;
       }
     }
 /* FOOTER */
