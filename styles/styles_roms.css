@@ -195,7 +195,7 @@ text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif;
   
   
   .footer-content:before {
-  content: "2025 RomsXISOs - Versión del Sitio 1.0.2";
+  content: "2025 RomsXISOs - Versión del Sitio 1.0.3";
   color: white;
   padding: 10px;
   display: inline-block;
